@@ -20,3 +20,14 @@ In the project we use multiple automation & programibility methods to monitor, c
 
           response_json = resp.json()
           ip_addr = response_json['ietf-ip:address'][0]['ip']
+
+***Multi-Threading***
+          
+    th = threading.Thread(target=monitor_ip_job, args=(incoming_msg,))
+    threads.append(th)  # appending the thread to the list
+    # starting the threads
+    for th in threads:
+        th.start()
+    # waiting for the threads to finish
+    for th in threads:
+        th.join()
