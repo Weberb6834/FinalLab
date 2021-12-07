@@ -5,7 +5,7 @@
 
 In the project we use multiple automation & programibility methods to monitor, configure and print, router configurations in our lab enviorment. We use methods such as RestConf, Paramiko, Ansible and Genie bot to achieve our goals. The main goal of the lab was to monitor g/2 interface on Router 2 (Branch) and check for a DHCP change of the ip on the interface. If an address change is detected, the bot monitoring the interface updates the old ip address in the vpn configuration on Router 1 (HQ), and removes the old vpn configuration.
 
-***Restconf for Disaster monitoring***
+###Restconf for Disaster monitoring
 
 1. Library for the interface
 
@@ -21,7 +21,7 @@ In the project we use multiple automation & programibility methods to monitor, c
           response_json = resp.json()
           ip_addr = response_json['ietf-ip:address'][0]['ip']
 
-***Multi-Threading***
+###Multi-Threading
           
     th = threading.Thread(target=monitor_ip_job, args=(incoming_msg,))
     threads.append(th)  # appending the thread to the list
@@ -34,7 +34,7 @@ In the project we use multiple automation & programibility methods to monitor, c
         
 >Threading was used to all multiple functions to be ran at once and allow for reaccuring monitoring of desired interfaces and devices
 
-**TO-DO**
+##TO-DO
 1. Install the files found inside the Network_Monitoring folder
 2. Go into the `381Bot.py` file and change the: Teams_Token, Bot_Email & Bot_URL to match that of you webex bot
 
