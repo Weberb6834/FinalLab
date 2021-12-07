@@ -31,3 +31,5 @@ In the project we use multiple automation & programibility methods to monitor, c
     # waiting for the threads to finish
     for th in threads:
         th.join()
+        
+>Threading was used to all multiple functions to be ran at once and allow for reaccuring monitoring of desired interfaces and devices
