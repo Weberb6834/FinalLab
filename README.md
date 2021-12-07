@@ -13,7 +13,7 @@ In the project we use multiple automation & programibility methods to monitor, c
 ### Using Paramiko to re-configure HQ router VPN
 
 
-<img src='images/paramiko.png' width=80% />
+<img src='images/Paramiko.png' width=80% />
           
 
 
