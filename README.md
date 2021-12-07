@@ -39,3 +39,7 @@ In the project we use multiple automation & programibility methods to monitor, c
 2. Go into the `381Bot.py` file and change the: Teams_Token, Bot_Email & Bot_URL to match that of you webex bot
 
 <img src='images/bot.png' width=100% />
+
+You can get your bot_url by going into your terminal and entering the command:
+          
+          ngrok http 5001
