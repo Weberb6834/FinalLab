@@ -13,7 +13,7 @@ In the project we use multiple automation & programibility methods to monitor, c
 ### Using Paramiko to re-configure HQ router VPN
 
 
-
+<img src='images/paramiko.png' width=80% />
           
 
 
@@ -45,6 +45,7 @@ In the project we use multiple automation & programibility methods to monitor, c
 - You can get your bot_url by going into your terminal and entering the command:
           
           ngrok http 5001
+ 
  
  
  
