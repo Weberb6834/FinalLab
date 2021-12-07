@@ -10,6 +10,12 @@ In the project we use multiple automation & programibility methods to monitor, c
 
           url = "https://192.168.56.106/restconf/data/ietf-interfaces:interfaces/interface=GigabitEthernet2/ietf-ip:ipv4/address="
         
+### Using Paramiko to re-configure HQ router VPN
+
+
+
+          
+
 
 ### Multi-Threading
           
