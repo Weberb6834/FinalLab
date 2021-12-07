@@ -1,3 +1,0 @@
-Challenge #3 Question
-
-It is possible to do but it appears quite hard because trying to parse through all the data is very difficult.
