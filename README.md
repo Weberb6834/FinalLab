@@ -35,10 +35,10 @@ In the project we use multiple automation & programibility methods to monitor, c
 >Threading was used to all multiple functions to be ran at once and allow for reaccuring monitoring of desired interfaces and devices
 
 ## TO-DO
-1. Install the files found inside the Network_Monitoring folder
+**1. Install the files found inside the Network_Monitoring folder
 
 
-2. Go into the `381Bot.py` file and change the: Teams_Token, Bot_Email & Bot_URL to match that of you webex bot
+**2. Go into the `381Bot.py` file and change the: Teams_Token, Bot_Email & Bot_URL to match that of you webex bot
 
 
 <img src='images/bot.png' width=100% />
@@ -49,4 +49,5 @@ In the project we use multiple automation & programibility methods to monitor, c
           ngrok http 5001
  
  
-3. You're now all set to go!
+ 
+ **3. You're now all set to go!
