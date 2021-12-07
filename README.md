@@ -44,7 +44,7 @@ In the project we use multiple automation & programibility methods to monitor, c
 <img src='images/bot.png' width=100% />
 
 
-          - You can get your bot_url by going into your terminal and entering the command:
+- You can get your bot_url by going into your terminal and entering the command:
           
           ngrok http 5001
  
