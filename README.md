@@ -17,6 +17,11 @@ In the project we use multiple automation & programibility methods to monitor, c
           
 
 
+>Note the removing of the previously configured VPN
+
+
+
+
 ### Multi-Threading
           
     th = threading.Thread(target=monitor_ip_job, args=(incoming_msg,))
@@ -43,7 +48,6 @@ In the project we use multiple automation & programibility methods to monitor, c
 
 
 
->Note the removing of the previously configured VPN
 
 
 
