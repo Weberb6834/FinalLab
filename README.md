@@ -37,6 +37,7 @@ In the project we use multiple automation & programibility methods to monitor, c
 ## TO-DO
 **1. Install the files found inside the Network_Monitoring folder**
 
+- Make sure you also put files in the correct directories
 
 
 **2. Go into the `381Bot.py` file and change the: Teams_Token, Bot_Email & Bot_URL to match that of you webex bot**
