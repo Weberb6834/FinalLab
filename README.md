@@ -54,7 +54,7 @@ and the save which targets the backup folder.
 
 <img src='images/backup_router code.PNG' width=80% />
 
-### Paramkio Code:
+### Paramiko Code:
 
 For Paramiko we put everything in the 381Bot.py.
 
