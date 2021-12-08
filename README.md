@@ -37,19 +37,20 @@ In the project we use multiple automation & programibility methods to monitor, c
 
 Ansible Code:
 
-For the ansible section of code we had to add to add this code to the 381Bot.py file
+For the ansible section of code we had to add this code to the 381Bot.py file.
 
 <img src='images/Import os.PNG' width=80% />
 
-This adds os commands to the code which we implemented show below
+This adds os commands to the code which we implemented shown below:
 
 <img src='images/Full code.PNG' width=80% />
 
-The code is then called to using this command shown below
+The code is then called to using this command shown below:
 
 <img src='images/bot_add.PNG' width=80% />
 
-The ansible code that I used is shown below,
+The ansible code that I used is shown below, the key parts of this is the show running config section
+and the save which targets the backup folder.
 
 <img src='images/backup_router code.PNG' width=80% />
 
