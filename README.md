@@ -54,6 +54,26 @@ and the save which targets the backup folder.
 
 <img src='images/backup_router code.PNG' width=80% />
 
+Paramkio Code:
+
+For Paramiko we put everything in the 381Bot.py.
+
+Import paramiko for the commands to be added shown below.
+
+![import_paramiko](https://user-images.githubusercontent.com/93942818/145139162-3c917a79-5da2-4a7f-ab57-1277ddcb11db.png)
+
+Paramiko also needs to know where it is going. These lines tell it the information of the router.
+
+![Paramiko_setup](https://user-images.githubusercontent.com/93942818/145139328-afcb6fb5-df4d-468f-8f80-b2fc15628af5.png)
+
+Below is the code that runs on the router to find the version.
+
+![Paramiko](https://user-images.githubusercontent.com/93942818/145138426-178370c6-eaa5-49db-807c-16cab4dd9f62.png)
+
+This adds the commands "show version" to the list to call upon the code above.
+
+![show_version](https://user-images.githubusercontent.com/93942818/145139468-89c96db4-e858-444f-bb45-af61c8caa4b5.png)
+
 ## HOW-TO
 
 Installing Libraries:
