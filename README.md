@@ -76,10 +76,10 @@ This adds the commands "show version" to the list to call upon the code above.
 
 ## HOW-TO
 
-Installing Libraries:
+**Installing Libraries:**
 1.	On your Ubuntu system input the following commands, sudo snap install ngrok  ,  pip3 install webexteamssdk  ,  pip3 install webexteamsbot
 
-Creating a bot:
+**Creating a bot:**
 1.	Go to https://developer.webex.com and click “Start Building Apps” create an account if you don’t have one already.
 2.	Click “Create new app” and then “Create a Bot” 
 3.	Enter your Bot’s name and a globally unique username (make sure to keep note of the username)
@@ -89,7 +89,7 @@ Creating a bot:
 
 5.	Navigate to https://teams.webex.com and sign in or create an account if you don’t have one.
 
-Create a Web Hook
+**Create a Web Hook**
 
 1.	Use command ngrok http 5000, you should get the following output
 
@@ -97,7 +97,7 @@ Create a Web Hook
 
 2.	Copy down the https forwarding address, we will need it for later
 
-Download Chat Bot Code
+**Download Chat Bot Code**
 1.	Navigate to https://github.com/Weberb6834/FinalLab and download the Network_Monitor file
 2.	Open that folder in Visual Studio Code
 3.	Open file 381Bot.py and navigate to Line 37, under bot details you will need to fill in your bot email, your bot token and for the bot_url enter in the ngrok https forwarding address
@@ -107,7 +107,7 @@ Download Chat Bot Code
 4.	Navigate to useless_skills.py and put in the token
 5.	In routers.py use the IP of your CSR1000v address
 
-Run the bot
+**Run the bot**
 1.	Run 381Bot.py with command python3 381Bot.py
 2.	Navigate to either the Webex desktop app or the Webex web app
 3.	If everything works you should be able to do the /help command and run any of the provided commands
