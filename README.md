@@ -65,7 +65,7 @@ Creating a bot:
 3.	Enter your Bot’s name and a globally unique username (make sure to keep note of the username)
 4.	Add Bot and then take note of the bot access token, we will need this for later.
 
-<img src='images/backup_router code.PNG' width=80% />
+<img src='images/Picture1.png' width=80% />
 
 5.	Navigate to https://teams.webex.com and sign in or create an account if you don’t have one.
 
@@ -73,7 +73,7 @@ Create a Web Hook
 
 1.	Use command ngrok http 5000, you should get the following output
 
-<img src='images/backup_router code.PNG' width=80% />
+<img src='images/Picture2.png' width=80% />
 
 2.	Copy down the https forwarding address, we will need it for later
 
@@ -82,7 +82,7 @@ Download Chat Bot Code
 2.	Open that folder in Visual Studio Code
 3.	Open file 381Bot.py and navigate to Line 37, under bot details you will need to fill in your bot email, your bot token and for the bot_url enter in the ngrok https forwarding address
 
-<img src='images/backup_router code.PNG' width=80% />
+<img src='images/Picture3.png' width=80% />
 
 4.	Navigate to useless_skills.py and put in the token
 5.	In routers.py use the IP of your CSR1000v address
@@ -92,4 +92,4 @@ Run the bot
 2.	Navigate to either the Webex desktop app or the Webex web app
 3.	If everything works you should be able to do the /help command and run any of the provided commands
 
-<img src='images/backup_router code.PNG' width=80% />
+<img src='images/Picture4.png' width=80% />
