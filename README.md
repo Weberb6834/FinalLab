@@ -39,19 +39,19 @@ Ansible Code:
 
 For the ansible section of code we had to add to add this code to the 381Bot.py file
 
-<img src='images/Import os.png' width=80% />
+<img src='images/Import os.PNG' width=80% />
 
 This adds os commands to the code which we implemented show below
 
-<img src='images/Full code.png' width=80% />
+<img src='images/Full code.PNG' width=80% />
 
 The code is then called to using this command shown below
 
-<img src='images/bot_add.png' width=80% />
+<img src='images/bot_add.PNG' width=80% />
 
 The ansible code that I used is shown below,
 
-<img src='images/backup_router code.png' width=80% />
+<img src='images/backup_router code.PNG' width=80% />
 
 ## TO-DO
 **1. Install the files found inside the Network_Monitoring folder**
